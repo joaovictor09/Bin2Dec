@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bin2Dec</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="title">
+            BinToDec
+        </div>  
+
+        <!-- <div class="options">
+            <button id="button-option" class="bin-to-dec">
+                BinToDec
+            </button>
+            
+            <button id="button-option" class="dec-to-bin">
+                DecToBin
+            </button>
+        </div> -->
+
+        <div class="display">
+            <input type="text" maxlength="8" placeholder="Number here">
+        </div>
+
+        <div class="convert">
+            <button onclick="convert()">
+                Convert
+            </button>
+        </div>
+
+        <div class="results">
+
+            <div id="result-display" >
+                
+                <div class="text">
+                    Binary
+                </div>
+                <div class="display">
+                    <input class="binary" type="text" readonly>
+                </div>
+            </div>
+
+            <div id="result-display">
+                <div class="text">
+                    Decimal
+                </div>
+                <div class="display">
+                    <input class="decimal" type="text" readonly>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
